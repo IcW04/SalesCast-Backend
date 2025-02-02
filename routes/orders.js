@@ -62,8 +62,8 @@ router.get('/', function(req, res, next) {
         },
         {
             "order_number": 3,
-            "client_id": 1,
             "order_date_placed": "07/10/2020",
+            "client_id": 1,
             "order_amount": 349.99,
             "products": [
                 {
@@ -170,8 +170,8 @@ router.get('/', function(req, res, next) {
         },
         {
             "order_number": 9,
-            "client_id": 3,
             "order_date_placed": "30/12/2024",
+            "client_id": 3,
             "order_amount": 179.98,
             "products": [
                 {
@@ -191,6 +191,16 @@ router.get('/', function(req, res, next) {
     ]
     })
 
+
+});
+
+router.get('/predictions', function(req, res, next) {
+
+    return res.success({
+        future_orders: [
+
+        ]
+    })
 
 });
 
