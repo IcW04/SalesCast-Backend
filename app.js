@@ -27,8 +27,10 @@ app.use(helmet());
 app.use(cors(corsOptions));
 app.use(defaultResponses);
 
-app.get('/', function(req, res) {
-    return res.success();
-})
+// Routers
+const authRouter = require('./routes/auth');
+
+// Routing structure
+app.use('/auth', authRouter);
 
 module.exports = app;
