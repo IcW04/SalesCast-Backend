@@ -12,14 +12,14 @@ export const future_orders = [
                         "quantity": 10,
                         "items_per_unit": 3,
                         "product_unit_price": 3750,
-                        "total_price": 1250
+                        "total_price": 37500
                     },
                     {
                         "product_id": 4,
                         "product_name": "smartwatch",
                         "quantity": 1,
                         "items_per_unit": 6,
-                        "unit_price": 3375,
+                        "product_unit_price": 3375,
                         "total_price": 3375
                     },
                     {
@@ -27,7 +27,7 @@ export const future_orders = [
                         "product_name": "security camera",
                         "quantity": 1,
                         "items_per_unit": 5,
-                        "unit_price": 2300,
+                        "product_unit_price": 2300,
                         "total_price": 2300
                     },
                     {
@@ -35,7 +35,7 @@ export const future_orders = [
                         "product_name": "e-reader",
                         "quantity": 2,
                         "items_per_unit": 5,
-                        "unit_price": 175,
+                        "product_unit_price": 175,
                         "total_price": 350
                     },
                     {
@@ -43,12 +43,12 @@ export const future_orders = [
                         "product_name": "portable charger",
                         "quantity": 2,
                         "items_per_unit": 10,
-                        "unit_price": 35,
+                        "product_unit_price": 35,
                         "total_price": 70
                     }
 
                 ],
-                "total_bundle_price": 19015
+                "total_bundle_price": 43595
             },
             "add_on_options": [
                 {
@@ -56,7 +56,7 @@ export const future_orders = [
                     "product_name": "smart thermostat",
                     "quantity": 1,
                     "items_per_unit": 4,
-                    "unit_price": 250,
+                    "product_unit_price": 250,
                     "total_price": 250
                 },
                 {
@@ -64,7 +64,7 @@ export const future_orders = [
                     "product_name": "smartwatch",
                     "quantity": 1,
                     "items_per_unit": 6,
-                    "unit_price": 375,
+                    "product_unit_price": 375,
                     "total_price": 375
                 }
             ]
@@ -82,15 +82,15 @@ export const future_orders = [
                         "product_name": "smart speaker",
                         "quantity": 3,
                         "items_per_unit": 8,
-                        "unit_price": 620,
-                        "total_price": 1500
+                        "product_unit_price": 620,
+                        "total_price": 1860
                     },
                     {
                         "product_id": 15,
                         "product_name": "robot vacuum",
                         "quantity": 1,
                         "items_per_unit": 3,
-                        "unit_price": 350,
+                        "product_unit_price": 350,
                         "total_price": 350
                     },
                     {
@@ -98,7 +98,7 @@ export const future_orders = [
                         "product_name": "wireless earbuds",
                         "quantity": 2,
                         "items_per_unit": 6,
-                        "unit_price": 175,
+                        "product_unit_price": 175,
                         "total_price": 350
                     },
                     {
@@ -106,7 +106,7 @@ export const future_orders = [
                         "product_name": "portable charger",
                         "quantity": 2,
                         "items_per_unit": 10,
-                        "unit_price": 35,
+                        "product_unit_price": 35,
                         "total_price": 70
                     },
                     {
@@ -114,11 +114,11 @@ export const future_orders = [
                         "product_name": "gaming console",
                         "quantity": 1,
                         "items_per_unit": 4,
-                        "unit_price": 450,
+                        "product_unit_price": 450,
                         "total_price": 450
                     }
                 ],
-                "total_bundle_price": 6140
+                "total_bundle_price": 3080
             },
             "add_on_options": [
                 {
@@ -126,7 +126,7 @@ export const future_orders = [
                     "product_name": "smartwatch",
                     "quantity": 1,
                     "items_per_unit": 6,
-                    "unit_price": 375,
+                    "product_unit_price": 375,
                     "total_price": 375
                 },
                 {
@@ -134,7 +134,7 @@ export const future_orders = [
                     "product_name": "security camera",
                     "quantity": 1,
                     "items_per_unit": 5,
-                    "unit_price": 200,
+                    "product_unit_price": 200,
                     "total_price": 200
                 },
                 {
@@ -142,7 +142,7 @@ export const future_orders = [
                     "product_name": "drone",
                     "quantity": 1,
                     "items_per_unit": 2,
-                    "unit_price": 750,
+                    "product_unit_price": 750,
                     "total_price": 750
                 }
             ]
@@ -160,7 +160,7 @@ export const future_orders = [
                         "product_name": "wireless earbuds",
                         "quantity": 3,
                         "items_per_unit": 6,
-                        "unit_price": 175,
+                        "product_unit_price": 175,
                         "total_price": 525
                     },
                     {
@@ -168,7 +168,7 @@ export const future_orders = [
                         "product_name": "smart thermostat",
                         "quantity": 1,
                         "items_per_unit": 4,
-                        "unit_price": 250,
+                        "product_unit_price": 250,
                         "total_price": 250
                     },
                     {
@@ -176,7 +176,7 @@ export const future_orders = [
                         "product_name": "smart lock",
                         "quantity": 1,
                         "items_per_unit": 3,
-                        "unit_price": 225,
+                        "product_unit_price": 225,
                         "total_price": 225
                     },
                     {
@@ -184,11 +184,11 @@ export const future_orders = [
                         "product_name": "virtual reality headset",
                         "quantity": 2,
                         "items_per_unit": 3,
-                        "unit_price": 450,
+                        "product_unit_price": 450,
                         "total_price": 900
                     }
                 ],
-                "total_bundle_price": 3850
+                "total_bundle_price": 1550
             },
             "add_on_options": [
                 {
@@ -196,7 +196,7 @@ export const future_orders = [
                     "product_name": "smart lock",
                     "quantity": 1,
                     "items_per_unit": 3,
-                    "unit_price": 225,
+                    "product_unit_price": 225,
                     "total_price": 225
                 },
                 {
@@ -204,7 +204,7 @@ export const future_orders = [
                     "product_name": "wireless earbuds",
                     "quantity": 2,
                     "items_per_unit": 6,
-                    "unit_price": 175,
+                    "product_unit_price": 175,
                     "total_price": 350
                 }
             ]
