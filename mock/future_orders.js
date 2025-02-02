@@ -46,8 +46,9 @@ export const future_orders = [
                         "unit_price": 35,
                         "total_price": 70
                     }
+
                 ],
-                "total_bundle_price": 2245
+                "total_bundle_price": 19015
             },
             "add_on_options": [
                 {
@@ -117,7 +118,7 @@ export const future_orders = [
                         "total_price": 450
                     }
                 ],
-                "total_bundle_price": 1520
+                "total_bundle_price": 6140
             },
             "add_on_options": [
                 {
@@ -187,7 +188,7 @@ export const future_orders = [
                         "total_price": 900
                     }
                 ],
-                "total_bundle_price": 1900
+                "total_bundle_price": 3850
             },
             "add_on_options": [
                 {
@@ -209,4 +210,4 @@ export const future_orders = [
             ]
         }
     }
-];
+]
