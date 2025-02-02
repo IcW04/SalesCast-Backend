@@ -49,7 +49,6 @@ router.get('/', async function(req, res, next) {
         });
 
     } catch (error) {
-        response = null;
         console.log(error);
         return res.error(500);
     }
@@ -69,7 +68,6 @@ router.get('/predictions', async function(req, res, next) {
                 JSON.parse(request.recordset[0].content)
             )
         } catch (error) {
-            response = null;
             console.log(error);
             return res.error(500);
         }
@@ -125,6 +123,22 @@ router.get('/predictions', async function(req, res, next) {
 });
 
 router.post('/', async function(req, res, next) {
+
+    let today = new Date();
+    req.body.order_date_placed = `${today.getDay()+1}\/${today.getMonth()+1}\/${today.getFullYear()}`
+    let orderAsString = JSON.stringify(req.body);
+
+    try {
+        let conn = await getConnection();
+        let request = await conn.request()
+            .input("order_content", sql.NVarChar(sql.MAX), orderAsString)
+            .execute('dbo.sp_InsertOrders');
+
+            return res.success();
+    } catch (error) {
+        console.log(error);
+        return res.error(500);
+    }
 
 })
 
