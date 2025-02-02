@@ -1,7 +1,8 @@
 export const future_orders = [
     {
         "client_id": 1,
-        "proposal_date": "02/02/2025",
+        "proposal_date": "01/03/2025",
+        "proposal_id": 1,
         "proposal": {
             "bundle_offer": {
                 "name": "Premium Tech & Smart Home Upgrade Package",
@@ -72,7 +73,8 @@ export const future_orders = [
     },
     {
         "client_id": 2,
-        "proposal_date": "02/02/2025",
+        "proposal_date": "02/04/2025",
+        "proposal_id": 2,
         "proposal": {
             "bundle_offer": {
                 "name": "Smart Home & Entertainment Tech Package",
@@ -150,7 +152,8 @@ export const future_orders = [
     },
     {
         "client_id": 3,
-        "proposal_date": "02/02/2025",
+        "proposal_date": "24/02/2025",
+        "proposal_id": 3,
         "proposal": {
             "bundle_offer": {
                 "name": "Smart Home & Immersive Tech Package",
