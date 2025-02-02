@@ -29,8 +29,10 @@ app.use(defaultResponses);
 
 // Routers
 const authRouter = require('./routes/auth');
+const ordersRouter = require('./routes/orders');
 
 // Routing structure
 app.use('/auth', authRouter);
+app.use('/orders', ordersRouter);
 
 module.exports = app;
