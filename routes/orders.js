@@ -125,7 +125,19 @@ router.get('/predictions', async function(req, res, next) {
 router.post('/', async function(req, res, next) {
 
     let today = new Date();
-    req.body.order_date_placed = `${today.getDay()+1}\/${today.getMonth()+1}\/${today.getFullYear()}`
+    req.body.order_date_placed = `${today.getDay()+1}\/${today.getMonth()+1}\/${today.getFullYear()}`;
+    let client_id = req.body.client_id;
+    switch(client_id) {
+        case 1:
+            req.body.client_name = 'Thryv Electronics';
+            break;
+        case 2:
+            req.body.client_name = 'LG Electronics';
+            break;
+        case 3:
+            req.body.client_name = 'Xtreme Compute & Co';
+            break;
+    }
     let orderAsString = JSON.stringify(req.body);
 
     try {
