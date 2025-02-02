@@ -33,11 +33,26 @@ const future_orders = require('../mock/future_orders');
 
 // GET all orders
 
-router.get('/', function(req, res, next) {
+router.get('/', async function(req, res, next) {
 
-    return res.success({
-      orders: orders.orders
-    });
+    let orderList = [];
+
+    try {
+        let conn = await getConnection();
+        let request = await conn.request()
+            .execute('dbo.sp_GetOrders');
+        request.recordset.forEach(element => {
+            orderList.push(JSON.parse(element.order_content));
+        });
+        return res.success({
+            orders: orderList
+        });
+
+    } catch (error) {
+        response = null;
+        console.log(error);
+        return res.error(500);
+    }
     
 });
 
@@ -108,5 +123,9 @@ router.get('/predictions', async function(req, res, next) {
 
 
 });
+
+router.post('/', async function(req, res, next) {
+
+})
 
 module.exports = router;
