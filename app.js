@@ -30,9 +30,12 @@ app.use(defaultResponses);
 // Routers
 const authRouter = require('./routes/auth');
 const ordersRouter = require('./routes/orders');
+const productsRouter = require('./routes/products');
 
 // Routing structure
 app.use('/auth', authRouter);
 app.use('/orders', ordersRouter);
+app.use('/products', productsRouter);
+
 
 module.exports = app;
