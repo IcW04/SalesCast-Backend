@@ -11,11 +11,13 @@
     "debug": "~2.6.9",
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
+    "helmet": "^8.0.0",
     "http-errors": "~1.6.3",
     "jsonwebtoken": "^9.0.2",
     "morgan": "~1.9.1",
     "mssql": "^11.0.1",
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.7",
+    "openai": "^4.82.0"
   },
   "keywords": [],
   "author": "",
