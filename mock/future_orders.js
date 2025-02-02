@@ -1,6 +1,7 @@
 export const future_orders = [
     {
         "client_id": 1,
+        "client_name": "Thryv Electronics",
         "proposal_date": "01/03/2025",
         "proposal_id": 1,
         "proposal": {
@@ -73,6 +74,7 @@ export const future_orders = [
     },
     {
         "client_id": 2,
+        "client_name": "LG Electronics",
         "proposal_date": "02/04/2025",
         "proposal_id": 2,
         "proposal": {
@@ -152,6 +154,7 @@ export const future_orders = [
     },
     {
         "client_id": 3,
+        "client_name": "Xtreme Compute & Co",
         "proposal_date": "24/02/2025",
         "proposal_id": 3,
         "proposal": {

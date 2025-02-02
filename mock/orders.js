@@ -2,6 +2,7 @@ export const orders = [
     {
         "order_number": 1,
         "client_id": 1,
+        "client_name": "Thryv Electronics",
         "order_date_placed": "12/08/2023",
         "order_amount": 40945.00,
         "products": [
@@ -34,6 +35,7 @@ export const orders = [
     {
         "order_number": 2,
         "client_id": 1,
+        "client_name": "Thryv Electronics",
         "order_date_placed": "02/05/2024",
         "order_amount": 2900.00,
         "products": [
@@ -66,6 +68,7 @@ export const orders = [
     {
         "order_number": 3,
         "client_id": 1,
+        "client_name": "Thryv Electronics",
         "order_date_placed": "07/10/2024",
         "order_amount": 4800,
         "products": [
@@ -90,6 +93,7 @@ export const orders = [
     {
         "order_number": 4,
         "client_id": 2,
+        "client_name": "LG Electronics",
         "order_date_placed": "04/04/2023",
         "order_amount": 2235,
         "products": [
@@ -114,6 +118,7 @@ export const orders = [
     {
         "order_number": 5,
         "client_id": 2,
+        "client_name": "LG Electronics",
         "order_date_placed": "12/09/2023",
         "order_amount": 800.00,
         "products": [
@@ -138,6 +143,7 @@ export const orders = [
     {
         "order_number": 6,
         "client_id": 2,
+        "client_name": "LG Electronics",
         "order_date_placed": "12/06/2024",
         "order_amount": 750.00,
         "products": [
@@ -162,6 +168,7 @@ export const orders = [
     {
         "order_number": 7,
         "client_id": 2,
+        "client_name": "LG Electronics",
         "order_date_placed": "21/12/2023",
         "order_amount": 820.00,
         "products": [
@@ -186,6 +193,7 @@ export const orders = [
     {
         "order_number": 8,
         "client_id": 3,
+        "client_name": "Xtreme Compute & Co",
         "order_date_placed": "12/07/2024",
         "order_amount": 600.00,
         "products": [
@@ -210,6 +218,7 @@ export const orders = [
     {
         "order_number": 9,
         "client_id": 3,
+        "client_name": "Xtreme Compute & Co",
         "order_date_placed": "23/09/2024",
         "order_amount": 775.00,
         "products": [
@@ -234,6 +243,7 @@ export const orders = [
     {
         "order_number": 10,
         "client_id": 3,
+        "client_name": "Xtreme Compute & Co",
         "order_date_placed": "27/12/2024",
         "order_amount": 1125.00,
         "products": [
